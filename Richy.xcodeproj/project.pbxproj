@@ -1,0 +1,1294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38CD33B1248E466F0073AFFC /* RichBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD33B0248E466F0073AFFC /* RichBottomSheet.swift */; };
+		38CD33B3248E60DF0073AFFC /* UIView+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD33B2248E60DF0073AFFC /* UIView+Corners.swift */; };
+		38CD33B6248E62A80073AFFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CD33B5248E62A80073AFFC /* Assets.xcassets */; };
+		38CD33B8248E67820073AFFC /* UIDevice+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CD33B7248E67820073AFFC /* UIDevice+Ext.swift */; };
+		38F96229248FB71B00209D13 /* RichBottomSheetDisplayMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F96228248FB71B00209D13 /* RichBottomSheetDisplayMode.swift */; };
+		4464755DB8A6E948A7668C92 /* Pods_Richy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225925ACC26F08BD2A8411F8 /* Pods_Richy.framework */; };
+		641BC0D024B13B7E0033E4EC /* RichItemActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641BC0CF24B13B7E0033E4EC /* RichItemActions.swift */; };
+		641BC0D224B13C360033E4EC /* RichTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641BC0D124B13C360033E4EC /* RichTextField.swift */; };
+		645A785024AC1F050014B220 /* RichTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645A784F24AC1F050014B220 /* RichTableView.swift */; };
+		645A785324AC1F340014B220 /* RichImageInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645A785124AC1F340014B220 /* RichImageInput.swift */; };
+		645A785424AC1F340014B220 /* RichMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645A785224AC1F340014B220 /* RichMessage.swift */; };
+		645A785624AC1F930014B220 /* RichTableViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645A785524AC1F930014B220 /* RichTableViewItem.swift */; };
+		649FE91724BB8DCE00E5ED0B /* RichForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649FE91624BB8DCE00E5ED0B /* RichForm.swift */; };
+		649FE91924BB944500E5ED0B /* RichLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649FE91824BB944500E5ED0B /* RichLabel.swift */; };
+		64D186B7244F0D5E0049FBCD /* RichAlertExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D186B6244F0D5E0049FBCD /* RichAlertExampleController.swift */; };
+		64D186B9244F0D6E0049FBCD /* RichAlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D186B8244F0D6E0049FBCD /* RichAlertExampleView.swift */; };
+		64D186BB244F11BC0049FBCD /* RichButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D186BA244F11BC0049FBCD /* RichButtonExampleView.swift */; };
+		64D186BD244F11CA0049FBCD /* RichButtonExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D186BC244F11CA0049FBCD /* RichButtonExampleController.swift */; };
+		64D186BF244F51EA0049FBCD /* RichInputExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D186BE244F51EA0049FBCD /* RichInputExampleController.swift */; };
+		64D186C1244F521B0049FBCD /* RichInputExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D186C0244F521B0049FBCD /* RichInputExampleView.swift */; };
+		64DCE0CE2484F1F600CD6F33 /* UIImageView+ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DCE0CD2484F1F600CD6F33 /* UIImageView+ImageManager.swift */; };
+		64ED8ECA244EF4C300B8B76C /* Richy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64ED8EC0244EF4C300B8B76C /* Richy.framework */; };
+		64ED8ECF244EF4C300B8B76C /* RichyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8ECE244EF4C300B8B76C /* RichyTests.swift */; };
+		64ED8ED1244EF4C300B8B76C /* Richy.h in Headers */ = {isa = PBXBuildFile; fileRef = 64ED8EC3244EF4C300B8B76C /* Richy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64ED8EE0244EF4D800B8B76C /* UIColor+MrsoolColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EDA244EF4D800B8B76C /* UIColor+MrsoolColors.swift */; };
+		64ED8EE1244EF4D800B8B76C /* ColorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EDB244EF4D800B8B76C /* ColorType.swift */; };
+		64ED8EE2244EF4D800B8B76C /* Dimentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EDC244EF4D800B8B76C /* Dimentions.swift */; };
+		64ED8EE3244EF4D800B8B76C /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EDD244EF4D800B8B76C /* FontType.swift */; };
+		64ED8EE4244EF4D800B8B76C /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EDE244EF4D800B8B76C /* Font.swift */; };
+		64ED8EE5244EF4D800B8B76C /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EDF244EF4D800B8B76C /* Identity.swift */; };
+		64ED8EE9244EF4FB00B8B76C /* RichTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EE7244EF4FB00B8B76C /* RichTags.swift */; };
+		64ED8EEA244EF4FB00B8B76C /* RichTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EE8244EF4FB00B8B76C /* RichTextInput.swift */; };
+		64ED8EF2244EF51400B8B76C /* RichButton+Badgable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EEC244EF51400B8B76C /* RichButton+Badgable.swift */; };
+		64ED8EF3244EF51400B8B76C /* Badgable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EED244EF51400B8B76C /* Badgable.swift */; };
+		64ED8EF4244EF51400B8B76C /* RandomContour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EEE244EF51400B8B76C /* RandomContour.swift */; };
+		64ED8EF5244EF51400B8B76C /* FillableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EEF244EF51400B8B76C /* FillableButton.swift */; };
+		64ED8EF6244EF51400B8B76C /* RichButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EF0244EF51400B8B76C /* RichButton.swift */; };
+		64ED8EF7244EF51400B8B76C /* RichButton+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EF1244EF51400B8B76C /* RichButton+Types.swift */; };
+		64ED8EFC244EF52900B8B76C /* RichAlertController+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EF9244EF52900B8B76C /* RichAlertController+Types.swift */; };
+		64ED8EFD244EF52900B8B76C /* RichAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EFA244EF52900B8B76C /* RichAlertController.swift */; };
+		64ED8EFE244EF52900B8B76C /* RichAlertController+Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8EFB244EF52900B8B76C /* RichAlertController+Popover.swift */; };
+		64ED8F0C244EF54800B8B76C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F01244EF54800B8B76C /* TitleView.swift */; };
+		64ED8F0D244EF54800B8B76C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F02244EF54800B8B76C /* ImageView.swift */; };
+		64ED8F0E244EF54800B8B76C /* RichAlertPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F03244EF54800B8B76C /* RichAlertPopupView.swift */; };
+		64ED8F0F244EF54800B8B76C /* ActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F04244EF54800B8B76C /* ActionsView.swift */; };
+		64ED8F10244EF54800B8B76C /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F05244EF54800B8B76C /* IconView.swift */; };
+		64ED8F11244EF54800B8B76C /* RichAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F06244EF54800B8B76C /* RichAlertView.swift */; };
+		64ED8F12244EF54800B8B76C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F07244EF54800B8B76C /* TextView.swift */; };
+		64ED8F13244EF54800B8B76C /* RichAlertContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F08244EF54800B8B76C /* RichAlertContentView.swift */; };
+		64ED8F14244EF54800B8B76C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F09244EF54800B8B76C /* BaseView.swift */; };
+		64ED8F15244EF54800B8B76C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F0A244EF54800B8B76C /* WebView.swift */; };
+		64ED8F16244EF54800B8B76C /* RichAlertRegularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F0B244EF54800B8B76C /* RichAlertRegularView.swift */; };
+		64ED8F1C244EF58E00B8B76C /* UIView+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F18244EF58E00B8B76C /* UIView+Anchor.swift */; };
+		64ED8F1D244EF58E00B8B76C /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F19244EF58E00B8B76C /* UIView+Shadow.swift */; };
+		64ED8F1E244EF58E00B8B76C /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F1A244EF58E00B8B76C /* UIView+Animation.swift */; };
+		64ED8F1F244EF58E00B8B76C /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F1B244EF58E00B8B76C /* CGPoint+Extension.swift */; };
+		64ED8F28244EF65100B8B76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F27244EF65100B8B76C /* AppDelegate.swift */; };
+		64ED8F31244EF65200B8B76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64ED8F30244EF65200B8B76C /* Assets.xcassets */; };
+		64ED8F34244EF65200B8B76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64ED8F32244EF65200B8B76C /* LaunchScreen.storyboard */; };
+		64ED8F3B244EF68800B8B76C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F39244EF68800B8B76C /* ExampleView.swift */; };
+		64ED8F3C244EF68800B8B76C /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ED8F3A244EF68800B8B76C /* ExampleController.swift */; };
+		64ED8F3E244EF6C100B8B76C /* Richy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64ED8EC0244EF4C300B8B76C /* Richy.framework */; };
+		64ED8F3F244EF6C100B8B76C /* Richy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 64ED8EC0244EF4C300B8B76C /* Richy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B26A4DF507E25311872B403D /* Pods_Richy_Richy_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC62BFDBB647E622EADFF585 /* Pods_Richy_Richy_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64ED8ECB244EF4C300B8B76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64ED8EB7244EF4C300B8B76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64ED8EBF244EF4C300B8B76C;
+			remoteInfo = Richy;
+		};
+		64ED8F40244EF6C100B8B76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64ED8EB7244EF4C300B8B76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64ED8EBF244EF4C300B8B76C;
+			remoteInfo = Richy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64ED8F42244EF6C100B8B76C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				64ED8F3F244EF6C100B8B76C /* Richy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A05D08B5AB8CEDC15FFF358 /* Pods-Richy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy.release.xcconfig"; path = "Target Support Files/Pods-Richy/Pods-Richy.release.xcconfig"; sourceTree = "<group>"; };
+		225925ACC26F08BD2A8411F8 /* Pods_Richy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Richy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29053A0C21377219D8940CD1 /* Pods-Richy-Richy-Example.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Richy-Example.alpha.xcconfig"; path = "Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example.alpha.xcconfig"; sourceTree = "<group>"; };
+		38CD33B0248E466F0073AFFC /* RichBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichBottomSheet.swift; sourceTree = "<group>"; };
+		38CD33B2248E60DF0073AFFC /* UIView+Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corners.swift"; sourceTree = "<group>"; };
+		38CD33B5248E62A80073AFFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38CD33B7248E67820073AFFC /* UIDevice+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Ext.swift"; sourceTree = "<group>"; };
+		38F96228248FB71B00209D13 /* RichBottomSheetDisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichBottomSheetDisplayMode.swift; sourceTree = "<group>"; };
+		56E1BD8B5BEA7F6F31B63F2E /* Pods-Richy-Richy-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Richy-Example.debug.xcconfig"; path = "Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		641BC0CF24B13B7E0033E4EC /* RichItemActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichItemActions.swift; sourceTree = "<group>"; };
+		641BC0D124B13C360033E4EC /* RichTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTextField.swift; sourceTree = "<group>"; };
+		645A784F24AC1F050014B220 /* RichTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTableView.swift; sourceTree = "<group>"; };
+		645A785124AC1F340014B220 /* RichImageInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImageInput.swift; sourceTree = "<group>"; };
+		645A785224AC1F340014B220 /* RichMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichMessage.swift; sourceTree = "<group>"; };
+		645A785524AC1F930014B220 /* RichTableViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichTableViewItem.swift; sourceTree = "<group>"; };
+		649FE91624BB8DCE00E5ED0B /* RichForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichForm.swift; sourceTree = "<group>"; };
+		649FE91824BB944500E5ED0B /* RichLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichLabel.swift; sourceTree = "<group>"; };
+		64D186B6244F0D5E0049FBCD /* RichAlertExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichAlertExampleController.swift; sourceTree = "<group>"; };
+		64D186B8244F0D6E0049FBCD /* RichAlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichAlertExampleView.swift; sourceTree = "<group>"; };
+		64D186BA244F11BC0049FBCD /* RichButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichButtonExampleView.swift; sourceTree = "<group>"; };
+		64D186BC244F11CA0049FBCD /* RichButtonExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichButtonExampleController.swift; sourceTree = "<group>"; };
+		64D186BE244F51EA0049FBCD /* RichInputExampleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichInputExampleController.swift; sourceTree = "<group>"; };
+		64D186C0244F521B0049FBCD /* RichInputExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichInputExampleView.swift; sourceTree = "<group>"; };
+		64DCE0CD2484F1F600CD6F33 /* UIImageView+ImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageManager.swift"; sourceTree = "<group>"; };
+		64ED8EC0244EF4C300B8B76C /* Richy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Richy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64ED8EC3244EF4C300B8B76C /* Richy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Richy.h; sourceTree = "<group>"; };
+		64ED8EC4244EF4C300B8B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64ED8EC9244EF4C300B8B76C /* RichyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64ED8ECE244EF4C300B8B76C /* RichyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichyTests.swift; sourceTree = "<group>"; };
+		64ED8ED0244EF4C300B8B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64ED8EDA244EF4D800B8B76C /* UIColor+MrsoolColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+MrsoolColors.swift"; sourceTree = "<group>"; };
+		64ED8EDB244EF4D800B8B76C /* ColorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorType.swift; sourceTree = "<group>"; };
+		64ED8EDC244EF4D800B8B76C /* Dimentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimentions.swift; sourceTree = "<group>"; };
+		64ED8EDD244EF4D800B8B76C /* FontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		64ED8EDE244EF4D800B8B76C /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		64ED8EDF244EF4D800B8B76C /* Identity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		64ED8EE7244EF4FB00B8B76C /* RichTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTags.swift; sourceTree = "<group>"; };
+		64ED8EE8244EF4FB00B8B76C /* RichTextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichTextInput.swift; sourceTree = "<group>"; };
+		64ED8EEC244EF51400B8B76C /* RichButton+Badgable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RichButton+Badgable.swift"; sourceTree = "<group>"; };
+		64ED8EED244EF51400B8B76C /* Badgable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badgable.swift; sourceTree = "<group>"; };
+		64ED8EEE244EF51400B8B76C /* RandomContour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomContour.swift; sourceTree = "<group>"; };
+		64ED8EEF244EF51400B8B76C /* FillableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillableButton.swift; sourceTree = "<group>"; };
+		64ED8EF0244EF51400B8B76C /* RichButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichButton.swift; sourceTree = "<group>"; };
+		64ED8EF1244EF51400B8B76C /* RichButton+Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RichButton+Types.swift"; sourceTree = "<group>"; };
+		64ED8EF9244EF52900B8B76C /* RichAlertController+Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RichAlertController+Types.swift"; sourceTree = "<group>"; };
+		64ED8EFA244EF52900B8B76C /* RichAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichAlertController.swift; sourceTree = "<group>"; };
+		64ED8EFB244EF52900B8B76C /* RichAlertController+Popover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RichAlertController+Popover.swift"; sourceTree = "<group>"; };
+		64ED8F01244EF54800B8B76C /* TitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		64ED8F02244EF54800B8B76C /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		64ED8F03244EF54800B8B76C /* RichAlertPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichAlertPopupView.swift; sourceTree = "<group>"; };
+		64ED8F04244EF54800B8B76C /* ActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsView.swift; sourceTree = "<group>"; };
+		64ED8F05244EF54800B8B76C /* IconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		64ED8F06244EF54800B8B76C /* RichAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichAlertView.swift; sourceTree = "<group>"; };
+		64ED8F07244EF54800B8B76C /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		64ED8F08244EF54800B8B76C /* RichAlertContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichAlertContentView.swift; sourceTree = "<group>"; };
+		64ED8F09244EF54800B8B76C /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		64ED8F0A244EF54800B8B76C /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		64ED8F0B244EF54800B8B76C /* RichAlertRegularView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RichAlertRegularView.swift; sourceTree = "<group>"; };
+		64ED8F18244EF58E00B8B76C /* UIView+Anchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Anchor.swift"; sourceTree = "<group>"; };
+		64ED8F19244EF58E00B8B76C /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		64ED8F1A244EF58E00B8B76C /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
+		64ED8F1B244EF58E00B8B76C /* CGPoint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		64ED8F25244EF65100B8B76C /* Richy-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Richy-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64ED8F27244EF65100B8B76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64ED8F30244EF65200B8B76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64ED8F33244EF65200B8B76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64ED8F35244EF65200B8B76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64ED8F39244EF68800B8B76C /* ExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		64ED8F3A244EF68800B8B76C /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleController.swift; sourceTree = "<group>"; };
+		6C7D4A400EC6ECD06F5B9089 /* Pods-Richy-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Example.debug.xcconfig"; path = "Target Support Files/Pods-Richy-Example/Pods-Richy-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8053A26A7BB6B51AA3771BFF /* Pods-Richy-Example.alpha plus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Example.alpha plus.xcconfig"; path = "Target Support Files/Pods-Richy-Example/Pods-Richy-Example.alpha plus.xcconfig"; sourceTree = "<group>"; };
+		A54D776A3ECF404ED1387692 /* Pods-Richy-Richy-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Richy-Example.release.xcconfig"; path = "Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A559E622479A04321847D373 /* Pods-Richy-Richy-Example.alpha plus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Richy-Example.alpha plus.xcconfig"; path = "Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example.alpha plus.xcconfig"; sourceTree = "<group>"; };
+		B1CABDB6235C9A43710C4E93 /* Pods-Richy-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Example.release.xcconfig"; path = "Target Support Files/Pods-Richy-Example/Pods-Richy-Example.release.xcconfig"; sourceTree = "<group>"; };
+		C862A59F690A8F3698CFE7C1 /* Pods-Richy.alpha plus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy.alpha plus.xcconfig"; path = "Target Support Files/Pods-Richy/Pods-Richy.alpha plus.xcconfig"; sourceTree = "<group>"; };
+		C87C7D0E83C14C51FAE7D45A /* Pods-Richy.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy.alpha.xcconfig"; path = "Target Support Files/Pods-Richy/Pods-Richy.alpha.xcconfig"; sourceTree = "<group>"; };
+		CC62BFDBB647E622EADFF585 /* Pods_Richy_Richy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Richy_Richy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E363CE8946E1EFF599068017 /* Pods-Richy-Example.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy-Example.alpha.xcconfig"; path = "Target Support Files/Pods-Richy-Example/Pods-Richy-Example.alpha.xcconfig"; sourceTree = "<group>"; };
+		FB8F10C1A822B03B4896F287 /* Pods-Richy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Richy.debug.xcconfig"; path = "Target Support Files/Pods-Richy/Pods-Richy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64ED8EBD244EF4C300B8B76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4464755DB8A6E948A7668C92 /* Pods_Richy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED8EC6244EF4C300B8B76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ED8ECA244EF4C300B8B76C /* Richy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED8F22244EF65100B8B76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ED8F3E244EF6C100B8B76C /* Richy.framework in Frameworks */,
+				B26A4DF507E25311872B403D /* Pods_Richy_Richy_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F167B31C5F8C5D84F46EE0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C7D4A400EC6ECD06F5B9089 /* Pods-Richy-Example.debug.xcconfig */,
+				B1CABDB6235C9A43710C4E93 /* Pods-Richy-Example.release.xcconfig */,
+				8053A26A7BB6B51AA3771BFF /* Pods-Richy-Example.alpha plus.xcconfig */,
+				E363CE8946E1EFF599068017 /* Pods-Richy-Example.alpha.xcconfig */,
+				FB8F10C1A822B03B4896F287 /* Pods-Richy.debug.xcconfig */,
+				1A05D08B5AB8CEDC15FFF358 /* Pods-Richy.release.xcconfig */,
+				C862A59F690A8F3698CFE7C1 /* Pods-Richy.alpha plus.xcconfig */,
+				C87C7D0E83C14C51FAE7D45A /* Pods-Richy.alpha.xcconfig */,
+				56E1BD8B5BEA7F6F31B63F2E /* Pods-Richy-Richy-Example.debug.xcconfig */,
+				A54D776A3ECF404ED1387692 /* Pods-Richy-Richy-Example.release.xcconfig */,
+				A559E622479A04321847D373 /* Pods-Richy-Richy-Example.alpha plus.xcconfig */,
+				29053A0C21377219D8940CD1 /* Pods-Richy-Richy-Example.alpha.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		38CD33AF248E465D0073AFFC /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				38CD33B0248E466F0073AFFC /* RichBottomSheet.swift */,
+				38F96228248FB71B00209D13 /* RichBottomSheetDisplayMode.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		38CD33B4248E629A0073AFFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38CD33B5248E62A80073AFFC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64ED8EB6244EF4C300B8B76C = {
+			isa = PBXGroup;
+			children = (
+				64ED8EC2244EF4C300B8B76C /* Richy */,
+				64ED8ECD244EF4C300B8B76C /* RichyTests */,
+				64ED8F26244EF65100B8B76C /* Richy-Example */,
+				64ED8EC1244EF4C300B8B76C /* Products */,
+				64ED8F3D244EF6C100B8B76C /* Frameworks */,
+				0F167B31C5F8C5D84F46EE0F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		64ED8EC1244EF4C300B8B76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8EC0244EF4C300B8B76C /* Richy.framework */,
+				64ED8EC9244EF4C300B8B76C /* RichyTests.xctest */,
+				64ED8F25244EF65100B8B76C /* Richy-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64ED8EC2244EF4C300B8B76C /* Richy */ = {
+			isa = PBXGroup;
+			children = (
+				38CD33B4248E629A0073AFFC /* Resources */,
+				38CD33AF248E465D0073AFFC /* BottomSheet */,
+				64ED8F00244EF53600B8B76C /* RichAlertController */,
+				64ED8EF8244EF51B00B8B76C /* RichButton */,
+				64ED8EEB244EF50700B8B76C /* RichInput */,
+				64ED8EE6244EF4E100B8B76C /* Identity */,
+				645A784F24AC1F050014B220 /* RichTableView.swift */,
+				645A785124AC1F340014B220 /* RichImageInput.swift */,
+				645A785524AC1F930014B220 /* RichTableViewItem.swift */,
+				645A785224AC1F340014B220 /* RichMessage.swift */,
+				64ED8F20244EF59400B8B76C /* Extensions */,
+				64ED8EC3244EF4C300B8B76C /* Richy.h */,
+				64ED8EC4244EF4C300B8B76C /* Info.plist */,
+				649FE91624BB8DCE00E5ED0B /* RichForm.swift */,
+				649FE91824BB944500E5ED0B /* RichLabel.swift */,
+			);
+			path = Richy;
+			sourceTree = "<group>";
+		};
+		64ED8ECD244EF4C300B8B76C /* RichyTests */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8ECE244EF4C300B8B76C /* RichyTests.swift */,
+				64ED8ED0244EF4C300B8B76C /* Info.plist */,
+			);
+			path = RichyTests;
+			sourceTree = "<group>";
+		};
+		64ED8EE6244EF4E100B8B76C /* Identity */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8EDB244EF4D800B8B76C /* ColorType.swift */,
+				64ED8EDC244EF4D800B8B76C /* Dimentions.swift */,
+				64ED8EDE244EF4D800B8B76C /* Font.swift */,
+				64ED8EDD244EF4D800B8B76C /* FontType.swift */,
+				64ED8EDF244EF4D800B8B76C /* Identity.swift */,
+				64ED8EDA244EF4D800B8B76C /* UIColor+MrsoolColors.swift */,
+			);
+			path = Identity;
+			sourceTree = "<group>";
+		};
+		64ED8EEB244EF50700B8B76C /* RichInput */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8EE7244EF4FB00B8B76C /* RichTags.swift */,
+				64ED8EE8244EF4FB00B8B76C /* RichTextInput.swift */,
+				641BC0D124B13C360033E4EC /* RichTextField.swift */,
+				641BC0CF24B13B7E0033E4EC /* RichItemActions.swift */,
+			);
+			path = RichInput;
+			sourceTree = "<group>";
+		};
+		64ED8EF8244EF51B00B8B76C /* RichButton */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8EF0244EF51400B8B76C /* RichButton.swift */,
+				64ED8EEC244EF51400B8B76C /* RichButton+Badgable.swift */,
+				64ED8EF1244EF51400B8B76C /* RichButton+Types.swift */,
+				64ED8EEF244EF51400B8B76C /* FillableButton.swift */,
+				64ED8EED244EF51400B8B76C /* Badgable.swift */,
+				64ED8EEE244EF51400B8B76C /* RandomContour.swift */,
+			);
+			path = RichButton;
+			sourceTree = "<group>";
+		};
+		64ED8F00244EF53600B8B76C /* RichAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8EFA244EF52900B8B76C /* RichAlertController.swift */,
+				64ED8EFB244EF52900B8B76C /* RichAlertController+Popover.swift */,
+				64ED8EF9244EF52900B8B76C /* RichAlertController+Types.swift */,
+				64ED8F17244EF55000B8B76C /* UIComponents */,
+			);
+			path = RichAlertController;
+			sourceTree = "<group>";
+		};
+		64ED8F17244EF55000B8B76C /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8F06244EF54800B8B76C /* RichAlertView.swift */,
+				64ED8F03244EF54800B8B76C /* RichAlertPopupView.swift */,
+				64ED8F0B244EF54800B8B76C /* RichAlertRegularView.swift */,
+				64ED8F08244EF54800B8B76C /* RichAlertContentView.swift */,
+				64ED8F09244EF54800B8B76C /* BaseView.swift */,
+				64ED8F02244EF54800B8B76C /* ImageView.swift */,
+				64ED8F05244EF54800B8B76C /* IconView.swift */,
+				64ED8F01244EF54800B8B76C /* TitleView.swift */,
+				64ED8F07244EF54800B8B76C /* TextView.swift */,
+				64ED8F0A244EF54800B8B76C /* WebView.swift */,
+				64ED8F04244EF54800B8B76C /* ActionsView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		64ED8F20244EF59400B8B76C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64DCE0CD2484F1F600CD6F33 /* UIImageView+ImageManager.swift */,
+				64ED8F1B244EF58E00B8B76C /* CGPoint+Extension.swift */,
+				64ED8F18244EF58E00B8B76C /* UIView+Anchor.swift */,
+				64ED8F1A244EF58E00B8B76C /* UIView+Animation.swift */,
+				64ED8F19244EF58E00B8B76C /* UIView+Shadow.swift */,
+				38CD33B2248E60DF0073AFFC /* UIView+Corners.swift */,
+				38CD33B7248E67820073AFFC /* UIDevice+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64ED8F26244EF65100B8B76C /* Richy-Example */ = {
+			isa = PBXGroup;
+			children = (
+				64ED8F3A244EF68800B8B76C /* ExampleController.swift */,
+				64ED8F39244EF68800B8B76C /* ExampleView.swift */,
+				64D186B6244F0D5E0049FBCD /* RichAlertExampleController.swift */,
+				64D186B8244F0D6E0049FBCD /* RichAlertExampleView.swift */,
+				64D186BC244F11CA0049FBCD /* RichButtonExampleController.swift */,
+				64D186BA244F11BC0049FBCD /* RichButtonExampleView.swift */,
+				64D186BE244F51EA0049FBCD /* RichInputExampleController.swift */,
+				64D186C0244F521B0049FBCD /* RichInputExampleView.swift */,
+				64ED8F27244EF65100B8B76C /* AppDelegate.swift */,
+				64ED8F30244EF65200B8B76C /* Assets.xcassets */,
+				64ED8F32244EF65200B8B76C /* LaunchScreen.storyboard */,
+				64ED8F35244EF65200B8B76C /* Info.plist */,
+			);
+			path = "Richy-Example";
+			sourceTree = "<group>";
+		};
+		64ED8F3D244EF6C100B8B76C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				225925ACC26F08BD2A8411F8 /* Pods_Richy.framework */,
+				CC62BFDBB647E622EADFF585 /* Pods_Richy_Richy_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64ED8EBB244EF4C300B8B76C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ED8ED1244EF4C300B8B76C /* Richy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		64ED8EBF244EF4C300B8B76C /* Richy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64ED8ED4244EF4C300B8B76C /* Build configuration list for PBXNativeTarget "Richy" */;
+			buildPhases = (
+				A92A9543BF64C3D16CC5FCEA /* [CP] Check Pods Manifest.lock */,
+				64ED8EBB244EF4C300B8B76C /* Headers */,
+				64ED8EBC244EF4C300B8B76C /* Sources */,
+				64ED8EBD244EF4C300B8B76C /* Frameworks */,
+				64ED8EBE244EF4C300B8B76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Richy;
+			productName = Richy;
+			productReference = 64ED8EC0244EF4C300B8B76C /* Richy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64ED8EC8244EF4C300B8B76C /* RichyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64ED8ED7244EF4C300B8B76C /* Build configuration list for PBXNativeTarget "RichyTests" */;
+			buildPhases = (
+				64ED8EC5244EF4C300B8B76C /* Sources */,
+				64ED8EC6244EF4C300B8B76C /* Frameworks */,
+				64ED8EC7244EF4C300B8B76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64ED8ECC244EF4C300B8B76C /* PBXTargetDependency */,
+			);
+			name = RichyTests;
+			productName = RichyTests;
+			productReference = 64ED8EC9244EF4C300B8B76C /* RichyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64ED8F24244EF65100B8B76C /* Richy-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64ED8F36244EF65200B8B76C /* Build configuration list for PBXNativeTarget "Richy-Example" */;
+			buildPhases = (
+				4713470EDE6BA008B7ED39EB /* [CP] Check Pods Manifest.lock */,
+				64ED8F21244EF65100B8B76C /* Sources */,
+				64ED8F22244EF65100B8B76C /* Frameworks */,
+				64ED8F23244EF65100B8B76C /* Resources */,
+				64ED8F42244EF6C100B8B76C /* Embed Frameworks */,
+				06702D8BD3AA16C6008EC8C8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64ED8F41244EF6C100B8B76C /* PBXTargetDependency */,
+			);
+			name = "Richy-Example";
+			productName = "Richy-Example";
+			productReference = 64ED8F25244EF65100B8B76C /* Richy-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64ED8EB7244EF4C300B8B76C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MRSOOL;
+				TargetAttributes = {
+					64ED8EBF244EF4C300B8B76C = {
+						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
+					};
+					64ED8EC8244EF4C300B8B76C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					64ED8F24244EF65100B8B76C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 64ED8EBA244EF4C300B8B76C /* Build configuration list for PBXProject "Richy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64ED8EB6244EF4C300B8B76C;
+			productRefGroup = 64ED8EC1244EF4C300B8B76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64ED8EBF244EF4C300B8B76C /* Richy */,
+				64ED8EC8244EF4C300B8B76C /* RichyTests */,
+				64ED8F24244EF65100B8B76C /* Richy-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64ED8EBE244EF4C300B8B76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38CD33B6248E62A80073AFFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED8EC7244EF4C300B8B76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED8F23244EF65100B8B76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ED8F34244EF65200B8B76C /* LaunchScreen.storyboard in Resources */,
+				64ED8F31244EF65200B8B76C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06702D8BD3AA16C6008EC8C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Richy-Richy-Example/Pods-Richy-Richy-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4713470EDE6BA008B7ED39EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Richy-Richy-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A92A9543BF64C3D16CC5FCEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Richy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64ED8EBC244EF4C300B8B76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DCE0CE2484F1F600CD6F33 /* UIImageView+ImageManager.swift in Sources */,
+				64ED8F0E244EF54800B8B76C /* RichAlertPopupView.swift in Sources */,
+				641BC0D024B13B7E0033E4EC /* RichItemActions.swift in Sources */,
+				38CD33B3248E60DF0073AFFC /* UIView+Corners.swift in Sources */,
+				64ED8F14244EF54800B8B76C /* BaseView.swift in Sources */,
+				64ED8EE9244EF4FB00B8B76C /* RichTags.swift in Sources */,
+				64ED8F0D244EF54800B8B76C /* ImageView.swift in Sources */,
+				64ED8EEA244EF4FB00B8B76C /* RichTextInput.swift in Sources */,
+				645A785424AC1F340014B220 /* RichMessage.swift in Sources */,
+				64ED8EFC244EF52900B8B76C /* RichAlertController+Types.swift in Sources */,
+				64ED8F13244EF54800B8B76C /* RichAlertContentView.swift in Sources */,
+				645A785324AC1F340014B220 /* RichImageInput.swift in Sources */,
+				64ED8F10244EF54800B8B76C /* IconView.swift in Sources */,
+				64ED8EF2244EF51400B8B76C /* RichButton+Badgable.swift in Sources */,
+				64ED8F11244EF54800B8B76C /* RichAlertView.swift in Sources */,
+				64ED8EE2244EF4D800B8B76C /* Dimentions.swift in Sources */,
+				64ED8F12244EF54800B8B76C /* TextView.swift in Sources */,
+				64ED8F0C244EF54800B8B76C /* TitleView.swift in Sources */,
+				38F96229248FB71B00209D13 /* RichBottomSheetDisplayMode.swift in Sources */,
+				64ED8EF4244EF51400B8B76C /* RandomContour.swift in Sources */,
+				64ED8F1F244EF58E00B8B76C /* CGPoint+Extension.swift in Sources */,
+				38CD33B1248E466F0073AFFC /* RichBottomSheet.swift in Sources */,
+				64ED8EFD244EF52900B8B76C /* RichAlertController.swift in Sources */,
+				64ED8F0F244EF54800B8B76C /* ActionsView.swift in Sources */,
+				64ED8F1D244EF58E00B8B76C /* UIView+Shadow.swift in Sources */,
+				649FE91924BB944500E5ED0B /* RichLabel.swift in Sources */,
+				64ED8EF7244EF51400B8B76C /* RichButton+Types.swift in Sources */,
+				64ED8EF6244EF51400B8B76C /* RichButton.swift in Sources */,
+				38CD33B8248E67820073AFFC /* UIDevice+Ext.swift in Sources */,
+				64ED8EE5244EF4D800B8B76C /* Identity.swift in Sources */,
+				64ED8EE0244EF4D800B8B76C /* UIColor+MrsoolColors.swift in Sources */,
+				64ED8F16244EF54800B8B76C /* RichAlertRegularView.swift in Sources */,
+				64ED8F1C244EF58E00B8B76C /* UIView+Anchor.swift in Sources */,
+				64ED8EE4244EF4D800B8B76C /* Font.swift in Sources */,
+				641BC0D224B13C360033E4EC /* RichTextField.swift in Sources */,
+				64ED8EFE244EF52900B8B76C /* RichAlertController+Popover.swift in Sources */,
+				649FE91724BB8DCE00E5ED0B /* RichForm.swift in Sources */,
+				645A785024AC1F050014B220 /* RichTableView.swift in Sources */,
+				64ED8EF3244EF51400B8B76C /* Badgable.swift in Sources */,
+				64ED8F1E244EF58E00B8B76C /* UIView+Animation.swift in Sources */,
+				645A785624AC1F930014B220 /* RichTableViewItem.swift in Sources */,
+				64ED8EE3244EF4D800B8B76C /* FontType.swift in Sources */,
+				64ED8F15244EF54800B8B76C /* WebView.swift in Sources */,
+				64ED8EF5244EF51400B8B76C /* FillableButton.swift in Sources */,
+				64ED8EE1244EF4D800B8B76C /* ColorType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED8EC5244EF4C300B8B76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ED8ECF244EF4C300B8B76C /* RichyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED8F21244EF65100B8B76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64ED8F28244EF65100B8B76C /* AppDelegate.swift in Sources */,
+				64ED8F3C244EF68800B8B76C /* ExampleController.swift in Sources */,
+				64D186B7244F0D5E0049FBCD /* RichAlertExampleController.swift in Sources */,
+				64D186BF244F51EA0049FBCD /* RichInputExampleController.swift in Sources */,
+				64D186BB244F11BC0049FBCD /* RichButtonExampleView.swift in Sources */,
+				64D186BD244F11CA0049FBCD /* RichButtonExampleController.swift in Sources */,
+				64ED8F3B244EF68800B8B76C /* ExampleView.swift in Sources */,
+				64D186C1244F521B0049FBCD /* RichInputExampleView.swift in Sources */,
+				64D186B9244F0D6E0049FBCD /* RichAlertExampleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64ED8ECC244EF4C300B8B76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64ED8EBF244EF4C300B8B76C /* Richy */;
+			targetProxy = 64ED8ECB244EF4C300B8B76C /* PBXContainerItemProxy */;
+		};
+		64ED8F41244EF6C100B8B76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64ED8EBF244EF4C300B8B76C /* Richy */;
+			targetProxy = 64ED8F40244EF6C100B8B76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64ED8F32244EF65200B8B76C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64ED8F33244EF65200B8B76C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		646FA71E247FE2BF004CE9F0 /* Alpha Plus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = "Alpha Plus";
+		};
+		646FA71F247FE2BF004CE9F0 /* Alpha Plus */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C862A59F690A8F3698CFE7C1 /* Pods-Richy.alpha plus.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Richy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.Richy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Alpha Plus";
+		};
+		646FA720247FE2BF004CE9F0 /* Alpha Plus */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW53Q2QTHU;
+				INFOPLIST_FILE = RichyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.RichyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Alpha Plus";
+		};
+		646FA721247FE2BF004CE9F0 /* Alpha Plus */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A559E622479A04321847D373 /* Pods-Richy-Richy-Example.alpha plus.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBHPPW5789;
+				INFOPLIST_FILE = "Richy-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsool.Richy-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Alpha Plus";
+		};
+		64813B52246B770D00AD735F /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Alpha;
+		};
+		64813B53246B770D00AD735F /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87C7D0E83C14C51FAE7D45A /* Pods-Richy.alpha.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Richy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.Richy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		64813B54246B770D00AD735F /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW53Q2QTHU;
+				INFOPLIST_FILE = RichyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.RichyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		64813B55246B770D00AD735F /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29053A0C21377219D8940CD1 /* Pods-Richy-Richy-Example.alpha.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBHPPW5789;
+				INFOPLIST_FILE = "Richy-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsool.Richy-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Alpha;
+		};
+		64ED8ED2244EF4C300B8B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		64ED8ED3244EF4C300B8B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64ED8ED5244EF4C300B8B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8F10C1A822B03B4896F287 /* Pods-Richy.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Richy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.Richy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64ED8ED6244EF4C300B8B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A05D08B5AB8CEDC15FFF358 /* Pods-Richy.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Richy/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.Richy;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64ED8ED8244EF4C300B8B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW53Q2QTHU;
+				INFOPLIST_FILE = RichyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.RichyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64ED8ED9244EF4C300B8B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TW53Q2QTHU;
+				INFOPLIST_FILE = RichyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsool.RichyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64ED8F37244EF65200B8B76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E1BD8B5BEA7F6F31B63F2E /* Pods-Richy-Richy-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBHPPW5789;
+				INFOPLIST_FILE = "Richy-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsool.Richy-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64ED8F38244EF65200B8B76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54D776A3ECF404ED1387692 /* Pods-Richy-Richy-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VBHPPW5789;
+				INFOPLIST_FILE = "Richy-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrsool.Richy-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64ED8EBA244EF4C300B8B76C /* Build configuration list for PBXProject "Richy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64ED8ED2244EF4C300B8B76C /* Debug */,
+				64ED8ED3244EF4C300B8B76C /* Release */,
+				646FA71E247FE2BF004CE9F0 /* Alpha Plus */,
+				64813B52246B770D00AD735F /* Alpha */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64ED8ED4244EF4C300B8B76C /* Build configuration list for PBXNativeTarget "Richy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64ED8ED5244EF4C300B8B76C /* Debug */,
+				64ED8ED6244EF4C300B8B76C /* Release */,
+				646FA71F247FE2BF004CE9F0 /* Alpha Plus */,
+				64813B53246B770D00AD735F /* Alpha */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64ED8ED7244EF4C300B8B76C /* Build configuration list for PBXNativeTarget "RichyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64ED8ED8244EF4C300B8B76C /* Debug */,
+				64ED8ED9244EF4C300B8B76C /* Release */,
+				646FA720247FE2BF004CE9F0 /* Alpha Plus */,
+				64813B54246B770D00AD735F /* Alpha */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64ED8F36244EF65200B8B76C /* Build configuration list for PBXNativeTarget "Richy-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64ED8F37244EF65200B8B76C /* Debug */,
+				64ED8F38244EF65200B8B76C /* Release */,
+				646FA721247FE2BF004CE9F0 /* Alpha Plus */,
+				64813B55246B770D00AD735F /* Alpha */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64ED8EB7244EF4C300B8B76C /* Project object */;
+}
